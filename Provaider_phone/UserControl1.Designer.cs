@@ -81,7 +81,7 @@ namespace Provaider_phone
             // 
             this.More_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.More_button.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.More_button.Location = new System.Drawing.Point(276, 9);
+            this.More_button.Location = new System.Drawing.Point(296, 10);
             this.More_button.Name = "More_button";
             this.More_button.Size = new System.Drawing.Size(62, 36);
             this.More_button.TabIndex = 4;
@@ -99,7 +99,7 @@ namespace Provaider_phone
             this.Controls.Add(this.Surname_Label);
             this.Controls.Add(this.Name_label);
             this.Name = "UserControl1";
-            this.Size = new System.Drawing.Size(352, 58);
+            this.Size = new System.Drawing.Size(364, 58);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

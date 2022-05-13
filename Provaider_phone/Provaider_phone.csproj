@@ -61,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InfoControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InfoControl.Designer.cs">
+      <DependentUpon>InfoControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\Adre.cs" />
     <Compile Include="Model\Car.cs" />
     <Compile Include="Model\Company.cs" />
@@ -72,6 +78,12 @@
     </Compile>
     <Compile Include="Model\Model1.cs" />
     <Compile Include="Model\Phone_info.cs" />
+    <Compile Include="More_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="More_info.Designer.cs">
+      <DependentUpon>More_info.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserControl1.cs">
@@ -82,6 +94,12 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoControl.resx">
+      <DependentUpon>InfoControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="More_info.resx">
+      <DependentUpon>More_info.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
